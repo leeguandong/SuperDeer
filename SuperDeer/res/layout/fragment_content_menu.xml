@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.hfut.superdeer.view.NoScrollViewPager
+        android:id="@+id/vp_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+     <RadioGroup
+        android:id="@+id/rg_group"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/cloud_bg"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:layout_weight="1"
+            android:id="@+id/rb_cfr"
+            style="@style/Bottom_Tab_Style"
+            android:checked="true"
+            android:text="城市快捷路线" />
+
+        <RadioButton
+            android:layout_weight="1"
+            android:id="@+id/rb_tr"
+            style="@style/Bottom_Tab_Style"
+            android:text="旅游路线" />
+
+     </RadioGroup>
+
+</LinearLayout>

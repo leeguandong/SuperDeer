@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp" >
+
+    <TextView
+        android:id="@+id/tv_title_ways"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="锋娟昆仑山大军阀昆仑山大军阀绿卡傻蛋家风口浪尖阿斯顿飞快乐四大可否接口乐山大佛就快啦束带结发"
+        android:textColor="#000"
+        android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/iv_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_title_ways"
+            android:layout_toLeftOf="@+id/tv_end"
+            android:background="@drawable/icon_search_from" />
+
+        <TextView
+            android:id="@+id/tv_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/iv_start"
+            android:layout_toRightOf="@+id/iv_start"
+            android:text="银河系"
+            android:textColor="#8000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/iv_end"
+            android:layout_toRightOf="@+id/iv_end"
+            android:text="太阳系"
+            android:textColor="#8000"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/iv_end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tv_title_ways"
+            android:layout_below="@+id/iv_start"
+            android:background="@drawable/icon_search_to" />
+
+</RelativeLayout>

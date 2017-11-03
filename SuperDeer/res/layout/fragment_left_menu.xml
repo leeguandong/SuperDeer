@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/rl_login"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:background="@drawable/bgpic" >
+
+        <ImageButton
+            android:id="@+id/ib_left_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/follow_back_avatar_img" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ib_left_login"
+            android:layout_marginLeft="30dp"
+            android:text="游客" />
+    </RelativeLayout>
+
+    <RadioGroup
+        android:id="@+id/rg_group_left"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical" >
+
+        <RadioButton
+            android:id="@+id/rb_supercloud"
+            style="@style/Left_Tab_Style"
+            android:layout_marginTop="5dp"
+            android:checked="true"
+            android:text="仙鹿大数据"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:id="@+id/rb_get_route"
+            style="@style/Left_Tab_Style"
+            android:layout_marginTop="5dp"
+            android:text="收到路线"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:id="@+id/rb_create_route"
+            style="@style/Left_Tab_Style"
+            android:layout_marginTop="5dp"
+            android:text="创建路线"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:id="@+id/rb_route"
+            style="@style/Left_Tab_Style"
+            android:layout_marginTop="5dp"
+            android:text="我的路线"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:id="@+id/rb_search_route"
+            style="@style/Left_Tab_Style"
+            android:layout_marginTop="5dp"
+            android:text="搜索路线"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:id="@+id/rb_setting"
+            style="@style/Left_Tab_Style"
+            android:layout_marginTop="5dp"
+            android:text="设置"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:id="@+id/rb_deerai"
+            style="@style/Left_Tab_Style"
+            android:layout_marginTop="5dp"
+            android:text="小鹿机器人"
+            android:textSize="20dp" />
+    </RadioGroup>
+
+</LinearLayout>
